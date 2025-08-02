@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <i class="fas fa-bars menu-toggle"></i>
+            <div class="logo">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png">
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+            <button class="mic-button"><i class="fas fa-microphone"></i></button>
+        </div>
+
+        <div class="right-icons">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user-circle user-icon"></i>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="sidebar-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-play"></i>
+            <span>Shorts</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-users"></i>
+            <span>Subscriptions</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-bookmark"></i>
+            <span>Library</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-history"></i>
+            <span>History</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-video"></i>
+            <span>Your Videos</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fas fa-clock"></i>
+            <span>Watch Later</span>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="filter-bar">
+            <button class="filter-button active">All</button>
+            <button class="filter-button">JavaScript</button>
+            <button class="filter-button">Music</button>
+            <button class="filter-button">Gaming</button>
+            <button class="filter-button">Live</button>
+            <button class="filter-button">Comedy</button>
+            <button class="filter-button">Recently uploaded</button>
+            <button class="filter-button">Watched</button>
+            <button class="filter-button">New to you</button>
+        </div>
+
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://i.ytimg.com/vi/MDLn5-zSQQI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD-SI_ZfoOFCI7dN168y4xbkLUoPA" class="thumbnail">
+                    <span class="duration">10:30</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.googleusercontent.com/FEcjRtez5od8UowDo6tTt9WlE-MrIFEmcwPMTORmK9Swk6KCklOmA3xfIG9WuLWfNYfNThQE=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Learn HTML in 10 Minutes - Complete Beginner's Tutorial</h3>
+                        <p class="channel-name">CodeMaster</p>
+                        <p class="views-time">450K views · 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://i.ytimg.com/vi/cPAJkuIkPO0/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGEMgXyhlMA8=&rs=AOn4CLAtVWhl5CPqmo3il0cmCTaMNgo-eg" class="thumbnail">
+                    <span class="duration">3:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.googleusercontent.com/o8CMdutfdbYPXkeYRfdESAqz8rsPEwnDLKfBB58hFsnjJmCQ7Q6ZbZ2Tjexs64K7-dZ_732W=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Top 10 Songs of Summer 2024 You Need to Hear</h3>
+                        <p class="channel-name">MusicWorld</p>
+                        <p class="views-time">1.2M views · 5 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.Af-bktF9zDVvqBP562nOOwAAAA?pid=Api&P=0&h=220" class="thumbnail">
+                    <span class="duration">22:15</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.ggpht.com/ytc/AIdro_moFDMjKcns2rNCO3NuLGUCr8H4H3gn-GDOxt9BNZ-PWQ=s88-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">NEW Game Review: Is It Worth Your Money?</h3>
+                        <p class="channel-name">GameLegend</p>
+                        <p class="views-time">890K views · 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.cY0GfIB4KsTtZGe-Lkxc2AHaEK?pid=Api&P=0&h=220" class="thumbnail">
+                    <span class="duration">15:22</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.ggpht.com/uJDgbNQuAM5Pe27wz4TVAgK_zaYPOy0DybO3YYKk2JPI8UYHBd_TjG4UK-8Lao_rsSxtaW4Z=s88-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Hidden Gems in Bali You Never Knew Existed</h3>
+                        <p class="channel-name">TravelViews</p>
+                        <p class="views-time">210K views · 1 week ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.JxwJUyoGqknO6TDHTNOyCgHaEK?pid=Api&P=0&h=220" class="thumbnail">
+                    <span class="duration">8:37</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.googleusercontent.com/ytc/AIdro_l3EF2nXtjNv7BIg25OslSoMR7fl5uQxf9zhMEWHk2qTd8=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">5 Minute Breakfast Recipes For Busy Mornings</h3>
+                        <p class="channel-name">FoodMaster</p>
+                        <p class="views-time">150K views · 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://i.ytimg.com/vi/fYzBmBScl1I/maxresdefault.jpg" class="thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.googleusercontent.com/NAkTxxzRVoAQZGsAUUdlQ3FxMQamv3_Ji8UfOP1bZRGBUQ2Attln-S4tCXeeZV7nBvRKINZd7C0=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Full Body Workout at Home - No Equipment Needed</h3>
+                        <p class="channel-name">FitLife</p>
+                        <p class="views-time">320K views · 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.nLl4qtbRoJ0McGbkNA2cTgHaEK?pid=Api&P=0&h=220" class="thumbnail">
+                    <span class="duration">6:18</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.ggpht.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s176-c-k-c0x00ffffff-no-rj-mo">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Best Stand-Up Comedy Moments of the Year</h3>
+                        <p class="channel-name">Netflix</p>
+                        <p class="views-time">5.5M views · 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://i.ytimg.com/vi/MFKdqXk6XIQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCx9LTywMMHYCiDMvfjeHmyqJExtg" class="thumbnail">
+                    <span class="duration">14:02</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.googleusercontent.com/LUKuwjgD94mMoCHhee-_g4ImU0LieSzSJIs6rRJc6rbboxWYI_tzK4S52qNfuJcpMsNIKBGg=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Mahavatar Narsimha Official Teaser (Telugu)</h3>
+                        <p class="channel-name">Hombale</p>
+                        <p class="views-time">6.1M views · 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="thumbnail-container">
+                    <img src="https://i.ytimg.com/vi/Z0rN4nn2kpw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCCTSFH3bC8RQbwBC8tdUHQd_TRqg" class="thumbnail">
+                    <span class="duration">6:18</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="https://yt3.googleusercontent.com/LUKuwjgD94mMoCHhee-_g4ImU0LieSzSJIs6rRJc6rbboxWYI_tzK4S52qNfuJcpMsNIKBGg=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Kantara - Divine Justice Will Be Served | Telugu Scene | Rishab Shetty | Sapthami |Hombale Films</h3>
+                        <p class="channel-name">Hombale</p>
+                        <p class="views-time">6.25M views·7 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

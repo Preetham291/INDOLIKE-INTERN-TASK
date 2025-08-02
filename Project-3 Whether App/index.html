@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div id="weatherBgEffects"></div>
+    <div class="container" role="main" aria-label="Weather Application">
+        <form id="weatherForm" aria-label="Search weather by city name" autocomplete="off" novalidate>
+            <input type="text" id="cityInput" placeholder="Enter city name…" autocomplete="off" aria-required="true" />
+            <button type="submit" aria-label="Search Weather">&#x1F50E;</button>
+        </form>
+
+        <div id="errorMessage" class="error hidden" role="alert"></div>
+        <section id="weatherContainer" class="hidden" aria-live="polite" aria-atomic="true">
+            <div class="weather-header">
+                <h2 id="cityName"></h2>
+                <img id="weatherIcon" alt="Weather icon" />
+            </div>
+            <div class="weather-main">
+                <span id="temperature"></span>
+                <span id="status"></span>
+            </div>
+            <div class="weather-details">
+                <span id="humidity"></span>
+                <span id="wind"></span>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
