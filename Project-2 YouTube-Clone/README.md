@@ -1,4 +1,4 @@
- Task - 2: YouTube Home Page Clone
+Task - 2: YouTube Home Page Clone
 
  Description
 This is a clone of the **YouTube Home Page** built using **HTML5 and CSS3**.  
@@ -12,4 +12,15 @@ The project focuses on recreating the layout and styling of the YouTube interfac
 
  Features
 - Fully responsive design
-- Clean and s
+- Clean and structured HTML/CSS layout
+- Flexbox and Grid used for alignment
+- Realistic UI similar to the original YouTube site
+
+ Technologies Used
+- HTML5  
+- CSS3  
+- Flexbox  
+- CSS Grid
+
+ Live Demo
+https://naniyoutube.ccbp.tech/
