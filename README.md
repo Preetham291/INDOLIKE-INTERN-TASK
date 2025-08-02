@@ -1,2 +1,1 @@
-# INDOLIKE-INTERN-TASK
-Internship projects for Fronted-Development - INDOLIKE
+All 3 tasks for Indolike Internship (Portfolio, YouTube Clone, Weather App)
